@@ -16,29 +16,14 @@
 ## Test for data
 
 ```ruby
-expected = {
-  tracks: [
-    "Come Together",
-    "Something",
-    "Maxwell's Silver Hammer",
-    "Oh! Darling",
-    "Octopus's Garden",
-    "I Want You (She's So Heavy)",
-    "Here Comes The Sun",
-    "Because",
-    "You Never Give Me Your Money",
-    "Sun King",
-    "Mean Mr. Mustard",
-    "Polythene Pam",
-    "She Came In Through The Bathroom Window",
-    "Golden Slumbers",
-    "Carry That Weight",
-    "The End",
-    "Her Majesty"
-  ],
-  genres: ['Rock'],
-  title: "Abbey Road",
-  artist: 'The Beatles'
-  year: 1969
-}
+    expected = {
+      tracks: ['Come Together', 'Something', "Maxwell's Silver Hammer", 'Oh! Darling', "Octopus's Garden",
+               "I Want You (She's So Heavy)", 'Here Comes The Sun', 'Because', 'You Never Give Me Your Money',
+               'Sun King', 'Mean Mr. Mustard', 'Polythene Pam', 'She Came In Through The Bathroom Window',
+               'Golden Slumbers', 'Carry That Weight', 'The End', 'Her Majesty'],
+      genres: ['Rock'],
+      title: 'Abbey Road',
+      artist: 'The Beatles',
+      year: 1969
+    }
 ```
