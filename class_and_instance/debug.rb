@@ -9,3 +9,7 @@ binding.pry
 if age >= 18
   puts "You can vote!!"
 end
+
+# continue
+# next
+# quit
