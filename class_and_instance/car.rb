@@ -2,6 +2,7 @@ class Car
   attr_reader :brand, :horsepower
   attr_accessor :color
 
+  # accessor is short for these two
   # attr_reader :color
   # attr_writer :color
 
@@ -21,6 +22,7 @@ class Car
     @color = color
   end
 
+  # REPLACED BY attr_reader
   # def brand
   #   @brand
   # end
@@ -30,17 +32,19 @@ class Car
   # end
 
   def start_engine
+    # Instance method have access to private methods
     start_fuel_pump
     init_spark_plug
   end
 
   private
+  # Everything underneath this is not accessible from outside of the instance (e.g. interface.rb)
 
   def start_fuel_pump
-    puts "Putting fuel into the cylinders"
+    puts 'Putting fuel into the cylinders'
   end
 
   def init_spark_plug
-    puts "Spark!!!"
+    puts 'Spark!!!'
   end
 end
